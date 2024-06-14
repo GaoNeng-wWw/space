@@ -10,7 +10,7 @@ import * as THREE from "three";
 const canvas = ref<HTMLCanvasElement>();
 
 
-  const {scene,update,onUpdate} = useScene(canvas);
+  const {scene,update,onUpdate} = useScene(canvas, 0x160016);
 
 
   const g = new THREE.Group()

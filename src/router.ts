@@ -13,6 +13,14 @@ export const routes = [
     meta: {
       title: '粒子星球'
     }
+  },
+  {
+    name: 'perlin-noise',
+    path: '/perlin-noise',
+    component: ()=>import('./pages/perlin-noise.vue'),
+    meta: {
+      title: '柏林噪声'
+    }
   }
 ];
 
