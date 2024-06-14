@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
+import { ref } from "vue";
 import { useScene } from "../hooks/useThree";
 import * as THREE from "three";
 

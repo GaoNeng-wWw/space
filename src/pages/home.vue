@@ -5,7 +5,7 @@
         grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4
         auto-cols-auto transition-all duration-700 delay-75
       ">
-      <template v-for="(data,idx) in cardData" :key="data?.id">
+      <template v-for="(data) in cardData" :key="data?.id">
         <router-link :to="data!.link">
           <div
             v-if="data !== null"
